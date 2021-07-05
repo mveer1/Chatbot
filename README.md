@@ -7,6 +7,8 @@ The chatbot will be trained on the dataset which contains categories (intents), 
 We use a special recurrent neural network (LSTM) to classify which category the user’s message belongs to 
 and then we will give a random response from the list of responses
 
+---
+
 ### This project contains the following.
 `Intents.json` – The data file which has predefined patterns and responses. <br>
 `train_chatbot.py` – In this Python file, we wrote a script to build the model and train our chatbot. <br>
@@ -15,4 +17,10 @@ and then we will give a random response from the list of responses
 `Chatbot_model.h5` – This is the trained model that contains information about the model and has weights of the neurons.<br>
 `Chatapp.py` – This is the Python script in which we implemented GUI for our chatbot. Users can easily interact with the bot with this.<br>
 
+### **Directions**:
+1. Go ./main directory
+2. Run `pip install -r requirements.txt`
+3. Run `python train_chatbot.py`
+4. Then Run `python chatapp.py` to start the chat server.
+---
 One of the main resource used in making this project was https://data-flair.training/blogs/python-chatbot-project/
